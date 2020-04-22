@@ -9,7 +9,7 @@ def space(row,col):
 main=Tk()
 main.title('Calculator')
 main.geometry('{}x{}'.format(310,245))
-#main.resizable(False,False)
+main.resizable(False,False)
 
 space(0,0)
 global e
